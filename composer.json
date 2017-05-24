@@ -1,0 +1,20 @@
+{
+    "name": "humanelement/module-base",
+    "description": "Human Element Base",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HE\\Base\\": ""
+        }
+    }
+}
