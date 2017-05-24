@@ -1,0 +1,10 @@
+.config-nav-block.hei-tab strong:before {
+    background: url('../images/logo.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-size: contain;
+}
