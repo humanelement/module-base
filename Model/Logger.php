@@ -2,11 +2,11 @@
 /**
  * Human Element Inc.
  *
- * @package HE_Base
+ * @package HumanElement_Base
  * @copyright Copyright (c) 2017 Human Element Inc. (http://www.human-element.com)
  */
 
-namespace HE\Base\Model;
+namespace HumanElement\Base\Model;
 
 class Logger
 {
