@@ -8,3 +8,11 @@
     vertical-align: middle;
     background-size: contain;
 }
+
+.admin__menu .item-base > a:before {
+    background: url('../images/logo.png') no-repeat;
+    content: '' !important;
+    background-size: contain;
+    background-position: center;
+}
+

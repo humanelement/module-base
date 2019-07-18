@@ -2,7 +2,7 @@
     "name": "human-element/module-base",
     "description": "Human-Element Base",
     "type": "magento2-module",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "license": [
         "GPL-3.0"
     ],
@@ -14,6 +14,10 @@
         {
             "email": "rsimmons@human-element.com",
             "name": "Rob Simmons"
+        },
+        {
+            "email": "pbriscoe@human-element.com",
+            "name": "Paul Briscoe"
         }
     ],
     "autoload": {
