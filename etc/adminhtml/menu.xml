@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="HumanElement_Base::base"
+             resource="HumanElement_Base::base"
+             title="Human Element"
+             module="HumanElement_Base"
+             sortOrder="60"/>
+        <add id="HumanElement_Base::configuration"
+             resource="HumanElement_Base::configuration"
+             title="Configuration"
+             module="HumanElement_Base"
+             sortOrder="10"
+             parent="HumanElement_Base::base"/>
+        <add id="HumanElement_Base::base_config"
+             resource="HumanElement_Base::configuration"
+             title="Base Information"
+             action="adminhtml/system_config/edit/section/hei_general"
+             module="HumanElement_Base"
+             sortOrder="10"
+             parent="HumanElement_Base::configuration"/>
+    </menu>
+</config>
