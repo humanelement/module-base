@@ -19,29 +19,24 @@ class Info extends \Magento\Backend\Block\Template implements \Magento\Framework
     protected $_template = 'HumanElement_Base::system/config/fieldset/info.phtml';
 
     /**
-     * @var \Magento\Framework\App\ProductMetadataInterface
-     */
-    private $_metaData;
-
-    /**
      * @var \HumanElement\Base\Helper\Data
      */
-    private $_helper;
-
+    protected $_helper;
+    
     /**
+     * Info constructor.
      * @param \Magento\Backend\Block\Template\Context $context
-     * @param \Magento\Framework\App\ProductMetadataInterface $productMetaData
+     * @param \HumanElement\Base\Helper\Data $helper
+     * @param \Magento\Framework\Module\Dir\Reader $moduleReader
      * @param array $data
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
-        \Magento\Framework\App\ProductMetadataInterface $productMetaData,
         \HumanElement\Base\Helper\Data $helper,
         array $data = []
     ) {
-        parent::__construct($context, $data);
-        $this->_metaData = $productMetaData;
         $this->_helper = $helper;
+        parent::__construct($context, $data);
     }
 
     /**
@@ -60,4 +55,5 @@ class Info extends \Magento\Backend\Block\Template implements \Magento\Framework
     {
         return $this->_helper->getModuleVersion();
     }
+
 }

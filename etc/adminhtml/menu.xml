@@ -5,7 +5,7 @@
              resource="HumanElement_Base::base"
              title="Human Element"
              module="HumanElement_Base"
-             sortOrder="70"/>
+             sortOrder="60"/>
         <add id="HumanElement_Base::configuration"
              resource="HumanElement_Base::configuration"
              title="Configuration"
