@@ -2,7 +2,7 @@
     "name": "human-element/module-base",
     "description": "Human-Element Base",
     "type": "magento2-module",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "license": [
         "GPL-3.0"
     ],
