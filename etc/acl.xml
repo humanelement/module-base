@@ -5,7 +5,7 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="HumanElement_Base::base" title="Human-Element Menu" sortOrder="10">
-                    <resource id="HumanElement_Base::configuration" title="Human-Element Configuration" sortOrder="10" />
+                    <resource id="HumanElement_Base::configuration" title="Configurations" sortOrder="10" />
                 </resource>
             </resource>
         </resources>
