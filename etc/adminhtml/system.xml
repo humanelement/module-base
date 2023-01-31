@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="hei" translate="label" sortOrder="999999" class="hei-tab">
             <label>Human Element</label>
         </tab>
-        <section id="hei_general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="hei_general" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1"
+                 showInStore="1">
             <class>separator-top</class>
             <label>Base Information</label>
             <tab>hei</tab>
             <resource>HumanElement_Base::base</resource>
-            <group id="info" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="info" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
                 <frontend_model>HumanElement\Base\Block\Adminhtml\System\Config\Fieldset\Info</frontend_model>
             </group>
         </section>

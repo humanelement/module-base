@@ -2,15 +2,16 @@
     "name": "human-element/module-base",
     "description": "Human-Element Base",
     "type": "magento2-module",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "license": [
         "GPL-3.0"
     ],
+    "require" : {
+        "php" : ">=7.4",
+        "monolog/monolog": "^2.7",
+        "magento/framework": "*"
+    },
     "authors": [
-        {
-            "email": "sdaugherty@human-element.com",
-            "name": "Seth Daugherty"
-        },
         {
             "email": "rsimmons@human-element.com",
             "name": "Rob Simmons"
@@ -18,6 +19,10 @@
         {
             "email": "pbriscoe@human-element.com",
             "name": "Paul Briscoe"
+        },
+        {
+            "email": "nerickson@human-element.com",
+            "name": "Nathan Erickson"
         }
     ],
     "autoload": {
