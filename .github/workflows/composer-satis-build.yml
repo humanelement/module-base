@@ -1,0 +1,12 @@
+name: Build Composer Satis
+on:
+  push
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  build:
+    uses: humanelement/composer-repo/.github/workflows/composer-satis-build.yml@composer-satis-build-v1
+    with:
+      s3-bucket: ${{ vars.HE_COMPOSER_SATIS_S3_BUCKET }}
+      satis-json: ${{ vars.HE_COMPOSER_SATIS_JSON }}
