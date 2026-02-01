@@ -16,3 +16,8 @@ For example this would create a `live-debugging.log` file in your `/var/log` for
 ```php
 \HumanElement\Base\Model\Logger::log('code hit this path', 'live-debugging.log');
 ```
+
+
+## Extra Features
+- When saving an admin form (e.g. product, category), if there is an error, it will now scroll to that error.
+
